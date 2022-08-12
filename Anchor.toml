@@ -1,0 +1,18 @@
+[features]
+seeds = false
+# [programs.localnet]
+[programs.devnet]
+myepicproject = "2jnUggzxWGgNMKjtEPg7NkgiRqLihEKcuJZvzYWo8nga"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+# cluster = "localnet"
+cluster = "devnet"
+wallet = "/home/alexoukos/.config/solana/id.json"
+
+[scripts]
+# test = "yarn run mocha -t 1000000 tests/" # first time created code
+test = "node tests/myepicproject.js"
+
